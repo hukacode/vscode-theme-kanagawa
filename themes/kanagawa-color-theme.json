@@ -885,10 +885,12 @@
       "name": "Markdown - Links",
       "scope": [
         "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown"
+        "markup.underline.link.image.markdown",
+        "markup.list.unnumbered.markdown",
+        "meta.paragraph.markdown text.html.markdown"
       ],
       "settings": {
-        "foreground": "#ff869a"
+        "foreground": "#7FB4CA"
       }
     },
     {
@@ -1208,6 +1210,63 @@
       ],
       "settings": {
         "foreground": "#957FB8"
+      }
+    },
+    {
+      "name": "Misc - comment",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#727169",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Misc - keyword",
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#957FB8"
+      }
+    },
+    {
+      "name": "Misc - entity",
+      "scope": ["entity"],
+      "settings": {
+        "foreground": "#727169"
+      }
+    },
+    {
+      "name": "Misc - string",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#98BB6C"
+      }
+    },
+    {
+      "name": "Misc - variable",
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#E46876"
+      }
+    },
+    {
+      "name": "Misc - entity.name.type",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#7AA89F"
+      }
+    },
+    {
+      "name": "Misc - constant.numeric",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#D27E99"
+      }
+    },
+    {
+      "name": "Misc - entity.name.function",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#7E9CD8"
       }
     },
     {
