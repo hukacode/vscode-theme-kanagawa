@@ -1,0 +1,34 @@
+{
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true,
+    "null": null
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  },
+  "level1": {
+    "abc": "xcv",
+    "level2": {
+      "level3": {
+        "leve4": {
+          "level5": {
+            "level6": {
+              "level7": {
+                "level8": null,
+                "xyz": {
+                  "level9": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

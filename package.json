@@ -1,0 +1,45 @@
+{
+  "name": "kanagawa-theme",
+  "displayName": "Kanagawa Theme",
+  "description": "A VS Code theme",
+  "version": "0.0.1",
+  "publisher": "Huka",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hukacode/vscode-kanagawa-theme"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Kanagawa"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#1F1F28",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "kanagawa.jpg",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kanagawa",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-color-theme.json"
+      },
+      {
+        "label": "Kanagawa (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-color-theme-noitalic.json"
+      }
+    ]
+  }
+}
