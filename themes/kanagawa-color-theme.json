@@ -885,9 +885,7 @@
       "name": "Markdown - Links",
       "scope": [
         "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown",
-        "markup.list.unnumbered.markdown",
-        "meta.paragraph.markdown text.html.markdown"
+        "markup.underline.link.image.markdown"
       ],
       "settings": {
         "foreground": "#7FB4CA"
@@ -1197,7 +1195,8 @@
         "*uri*"
       ],
       "settings": {
-        "fontStyle": "underline"
+        "fontStyle": "underline",
+        "foreground": "#7FB4CA"
       }
     },
     {

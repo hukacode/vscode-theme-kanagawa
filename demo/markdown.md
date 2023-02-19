@@ -6,6 +6,7 @@
 
 - https://google.com
 - Test https://google.com
+- xclkvj 
 
 Link https://google.com
 
@@ -21,8 +22,8 @@ Link https://google.com
 6.  Click **Reload** to reload the Code
 7.  File > Preferences > Color Theme > **Kanagawa**
 
--[ ] check check 12 12
--[ ] check check 12 12
+- [ ] check check 12 12
+- [ ] check check 12 12
 
 Heading 1
 ========
