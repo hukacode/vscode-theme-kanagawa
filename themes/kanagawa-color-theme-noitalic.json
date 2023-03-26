@@ -11,7 +11,7 @@
     "breadcrumb.focusForeground": "#DCD7BA",
     "breadcrumb.foreground": "#938AA9",
     "breadcrumbPicker.background": "#001122",
-    "button.background": "#2A2A37",
+    "button.background": "#54546D",
     "button.foreground": "#DCD7BA",
     "button.hoverBackground": "#957FB8",
     "button.secondaryBackground": "#223249",
@@ -99,7 +99,7 @@
     "editorWidget.background": "#1F1F28",
     "editorWidget.border": "#2A2A37",
     "errorForeground": "#E82424",
-    "extensionButton.prominentBackground": "#2A2A37",
+    "extensionButton.prominentBackground": "#54546D",
     "extensionButton.prominentForeground": "#DCD7BA",
     "extensionButton.prominentHoverBackground": "#957FB8",
     "focusBorder": "#223249",
@@ -288,7 +288,7 @@
     "parameter": "#DCD7BA",
     "parameter.declaration": "#E6C384",
     "parameter.definition": "#E6C384",
-    "variable": "#DCD7BA",
+    "variable": "#c792ea",
     "variable.readonly": "#FFA066",
     "variable.readonly.defaultLibrary": "#7FB4CA",
     "variable.readonly.local": "#DCD7BA"
@@ -1246,7 +1246,7 @@
       "name": "Misc - variable",
       "scope": ["variable"],
       "settings": {
-        "foreground": "#E46876"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1371,14 +1371,6 @@
       "scope": "source.python variable.language.special",
       "settings": {
         "foreground": "#8EACE3"
-      }
-    },
-    {
-      "name": "Python - import control keyword",
-      "scope": "keyword.control",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#c792ea"
       }
     },
     {
