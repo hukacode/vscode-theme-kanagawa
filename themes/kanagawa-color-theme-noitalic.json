@@ -145,7 +145,7 @@
     "notificationToast.border": "#262a39",
     "panel.background": "#1F1F28",
     "panel.border": "#2A2A37",
-    "panelTitle.activeBorder": "#2A2A37",
+    "panelTitle.activeBorder": "#80CBC4",
     "panelTitle.activeForeground": "#DCD7BA",
     "panelTitle.inactiveForeground": "#DCD7BA",
     "peekView.border": "#2A2A37",
