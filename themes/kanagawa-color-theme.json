@@ -4,6 +4,9 @@
 	"name": "Kanagawa",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
+		"class": "#7FB4CA",
+		"interface": "#7AA89F",
+		"property": "#E6C384",
 		"newOperator": "#C8C093",
 		"stringLiteral": "#98bb6c",
 		"customLiteral": "#C8C093",

@@ -6,12 +6,16 @@ import {
   HttpHeaders,
   HttpErrorResponse,
 } from '@angular/common/http';
+
 @Injectable({
   providedIn: 'root',
 })
 export class CrudService {
   apiUrl: string = 'enter-your-api-url';
   headers = new HttpHeaders().set('Content-Type', 'application/json');
+  products$: DemoInterface;
+  owners: DemoClass
+
   constructor(private http: HttpClient) {}
   // Create
   createTask(data: any): Observable<any> {
