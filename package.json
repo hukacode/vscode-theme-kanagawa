@@ -34,11 +34,6 @@
         "label": "Kanagawa",
         "uiTheme": "vs-dark",
         "path": "./themes/kanagawa-color-theme.json"
-      },
-      {
-        "label": "Kanagawa (No Italics)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/kanagawa-color-theme-noitalic.json"
       }
     ]
   }
