@@ -4,13 +4,24 @@
 	"name": "Kanagawa",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"class": "#7FB4CA",
+		"class": "#A3D4D5",
 		"interface": "#7AA89F",
 		"property": "#E6C384",
 		"newOperator": "#C8C093",
-		"stringLiteral": "#98bb6c",
+		"stringLiteral": "#98BB6C",
 		"customLiteral": "#C8C093",
-		"numberLiteral": "#d27e99",
+		"numberLiteral": "#D27E99",
+		"variable": "#E46876",
+		"enum": "#938056",
+		// "enumMember": "#ff0000"
+		"keyword": "#957FB8",
+		"method": "#7FB4CA",
+		"operator":"#C0A36E",
+		"regexp": "#C0A36E",
+		// "parameter": "#ff0000",
+		// "typeParameter": "#ff0000",,
+		// "type": "#ff0000",
+		// ""
 	},
 	"colors": {
 		"activityBar.activeBorder": "#957FB8",
