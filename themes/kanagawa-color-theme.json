@@ -4,24 +4,22 @@
 	"name": "Kanagawa",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"class": "#A3D4D5",
-		"interface": "#7AA89F",
+		"class": "#7AA89F",
+		"interface": "#A3D4D5",
 		"property": "#E6C384",
 		"newOperator": "#C8C093",
 		"stringLiteral": "#98BB6C",
 		"customLiteral": "#C8C093",
 		"numberLiteral": "#D27E99",
 		"variable": "#E46876",
-		"enum": "#938056",
-		// "enumMember": "#ff0000"
+		"enum": "#658594",
+		"enumMember": "#7FB4CA",
 		"keyword": "#957FB8",
-		"method": "#7FB4CA",
+		"method": "#7E9CD8",
 		"operator":"#C0A36E",
 		"regexp": "#C0A36E",
-		// "parameter": "#ff0000",
-		// "typeParameter": "#ff0000",,
-		// "type": "#ff0000",
-		// ""
+		"string": "#98BB6C",
+		"parameter": "#938AA9",
 	},
 	"colors": {
 		"activityBar.activeBorder": "#957FB8",
@@ -471,13 +469,13 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#7E9CD8"
+				"foreground": "#7AA89F"
 			}
 		},
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#7E9CD8"
+				"foreground": "#7AA89F"
 			}
 		},
 		{
@@ -486,7 +484,8 @@
 				"keyword.operator.noexcept"
 			],
 			"settings": {
-				"foreground": "#7E9CD8"
+				"fontStyle": "bold",
+				"foreground": "#7AA89F"
 			}
 		},
 		{
@@ -495,19 +494,19 @@
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#FFA066"
+				"foreground": "#98BB6C"
 			}
 		},
 		{
 			"scope": "string.tag",
 			"settings": {
-				"foreground": "#FFA066"
+				"foreground": "#98BB6C"
 			}
 		},
 		{
 			"scope": "string.value",
 			"settings": {
-				"foreground": "#FFA066"
+				"foreground": "#98BB6C"
 			}
 		},
 		{
@@ -639,7 +638,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#7E9CD8"
 			}
 		},
 		{
@@ -679,7 +678,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#7AA89F"
+				"foreground": "#7E9CD8"
 			}
 		},
 		{
@@ -693,7 +692,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#7AA89F"
+				"foreground": "#7E9CD8"
 			}
 		},
 		{
@@ -707,13 +706,14 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#D27E99"
+				"foreground": "#E46876"
 			}
 		},
 		{
 			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
+				"alias",
 				"meta.definition.variable.name",
 				"support.variable",
 				"entity.name.variable",
@@ -826,7 +826,7 @@
 				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#7E9CD8"
 			}
 		},
 		{
@@ -866,7 +866,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#7AA89F"
+				"foreground": "#7E9CD8"
 			}
 		},
 		{
@@ -880,7 +880,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#7AA89F"
+				"foreground": "#7E9CD8"
 			}
 		},
 		{
@@ -894,7 +894,7 @@
 				"entity.name.operator"
 			],
 			"settings": {
-				"foreground": "#D27E99"
+				"foreground": "#E46876"
 			}
 		},
 		{
